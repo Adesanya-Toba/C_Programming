@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Pointers lesson.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Pointers11.c
+  Pointers12.c
+C:\C_programming\source\repos\Pointers Lesson\Pointers lesson\Pointers12.c(23,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+  Generating Code...
+  Pointers lesson.vcxproj -> C:\C_programming\source\repos\Pointers Lesson\Debug\Pointers_lesson.exe
