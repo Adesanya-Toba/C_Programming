@@ -1,6 +1,6 @@
 //Character Arrays and Pointers I
 
-/*
+
 #include <stdio.h>
 #include <string.h> 
 
@@ -33,12 +33,12 @@ int main()
 	int size = sizeof(c);
 	int size1 = sizeof(c2);
 
-	/*printf("%s\n", c);
+	printf("%s\n", c);
 	printf("%s\n", c2);
 	printf("%d\n", len);
 	printf("%d\n", len2);
 	printf("%d\n", size);
-	printf("%d\n", size1);*
+	printf("%d\n", size1);
 
 	char* c3, *c4;
 	c3 = c2;
@@ -46,4 +46,4 @@ int main()
 	printf("size of c4: %d\n", sizeof(c4));
 
 	myprint(c3);
-}*/
+}

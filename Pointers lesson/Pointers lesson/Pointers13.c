@@ -1,5 +1,5 @@
 // Pointers as Funtion Returns
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +14,7 @@ int* Add (int* a, int* b)
 	/*printf("Address of a in Add = %d\n", &a);
 	printf("Value in a of Add (address of a in main) = %d\n", a);
 	printf("Value at address stored in a of Add = %d\n", *a);
-	*
+	*/
 	int* c = (int*)malloc(sizeof(int));
 	*c = (*a) + (*b);
 	return c;
@@ -28,4 +28,4 @@ int main()
 	PrintHelloWorld();
 	printf("Sum is: %d\n", *ptr);
 
-}*/
+}

@@ -7,6 +7,7 @@ int main()
     while ((c = getchar()) != EOF)
     {
        putchar(c);
+       printf("\n"); // Now I understand how getchar works.
     }
 
     c = getchar() != EOF;

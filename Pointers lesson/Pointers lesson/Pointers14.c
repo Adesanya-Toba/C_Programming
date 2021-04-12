@@ -1,5 +1,5 @@
 //Function Pointers
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -16,7 +16,7 @@ int Add(int a , int b)
 int main()
 {
 	int c;
-	int (*p)(); //declaring a function pointer. Must have the same argument and return datatype.
+	int (*math)(int a, int b); //declaring a function pointer. Must have the same argument and return datatype.
 	//Apparently I don't need to replicate the entire function structure, maybe it's VS? I'll try another IDE.
 	
 	//p = &Add;
@@ -24,8 +24,8 @@ int main()
 	
 	//OR
 
-	p = Add;
-	c = p(2, 3);
+	math = Add;
+	c = math(2, 3);
 	printf("%d\n", c);
 
 
@@ -33,4 +33,4 @@ int main()
 	//OR
 	void (*ptr)() = PrintHello; //Another way, decalration and initialization
 	ptr("Bruce");
-}*/
+}

@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 //Pointers and arrays
 
@@ -30,4 +30,4 @@ int main()
 		printf("value = %d\n", A[i]);
 		printf("value = %d\n", *(A+i));
 	}
-}*/
+}

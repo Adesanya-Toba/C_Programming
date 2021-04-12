@@ -4,7 +4,7 @@
  *  Created on: Sep 9, 2020
  *      Author: ADESANYA TOBA
  */
-/*
+
 #include <stdio.h>
 
 int main() {
@@ -27,4 +27,4 @@ int main() {
 	printf("Address: %d, Value: %d\n", p1);
 
 }
-*/
+
