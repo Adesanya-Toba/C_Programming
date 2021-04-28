@@ -2,6 +2,7 @@
 *.d
 **.vs/
 *.vscode/
+.vscode/
 
 # Object files
 *.o
@@ -44,8 +45,10 @@
 *.idb
 *.pdb
 Debug
+Debug/
 .vs/
 Release
+Release/
 *.vcxproj
 *.sln
 
