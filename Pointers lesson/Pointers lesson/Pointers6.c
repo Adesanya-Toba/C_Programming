@@ -1,6 +1,5 @@
 //Arrays as function arguments
 
-/*
 #include <stdio.h>
 
 int SumOfElements(int A[], int size) //You have to pass the array address and size, otherwise your function won't know how 
@@ -34,4 +33,4 @@ int main ()
 	
 	printf("The doubled elements of array A are: {%d, %d, %d, %d, %d}\n",
 		A[0], A[1], A[2], A[3], A[4]);
-}*/
+}

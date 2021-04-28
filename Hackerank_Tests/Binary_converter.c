@@ -18,13 +18,13 @@ long decimalToBinary(int decimalnum)
 int main()
 {
     int n = 20566;
-    //printf("Enter the number to convert: ");
-    //scanf("%d", &n);
-    //printf("Equivalent Binary Number is: %ld \n", decimalToBinary(n));
+    printf("Enter the number to convert: ");
+    scanf("%d", &n);
+    printf("Equivalent Binary Number is: %ld \n", decimalToBinary(n));
 
-    char b[100];
-    sprintf(b,"%d",n);
-    printf("\n The string for the num is: %c\n", n);
+    // char b[100];
+    // sprintf(b,"%d",n);
+    // printf("\n The string for the num is: %c\n", n);
     //getchar();
     
     // printf("Enter the number to convert: ");
