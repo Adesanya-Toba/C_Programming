@@ -1,0 +1,4 @@
+ {
+      if(lastc != ' ')
+        putchar(c);
+    }
