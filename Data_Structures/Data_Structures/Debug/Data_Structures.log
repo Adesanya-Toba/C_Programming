@@ -1,9 +1,0 @@
-﻿  LinkedList1.cpp
-  LinkedLists1.c
-  LinkedLists2.c
-C:\Users\ADESANYA TOBA\source\repos\Data_Structures\Data_Structures\LinkedLists2.c(20,21): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\ADESANYA TOBA\source\repos\Data_Structures\Data_Structures\LinkedLists2.c(27,22): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\ADESANYA TOBA\source\repos\Data_Structures\Data_Structures\LinkedLists2.c(30,21): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-C:\Users\ADESANYA TOBA\source\repos\Data_Structures\Data_Structures\LinkedLists2.c(39,20): warning C4133: '=': incompatible types - from 'Node *' to 'Node *'
-  Generating Code...
-  Data_Structures.vcxproj -> C:\Users\ADESANYA TOBA\source\repos\Data_Structures\Debug\Data_Structures.exe

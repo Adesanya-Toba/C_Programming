@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 **/.vs
+**.vs/
+*.vscode/
+.vscode/
 
 # Object files
 *.o
@@ -42,6 +45,13 @@
 *.su
 *.idb
 *.pdb
+Debug
+Debug/
+.vs/
+Release
+Release/
+*.vcxproj
+*.sln
 
 
 # Kernel Module Compile Results
