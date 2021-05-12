@@ -38,15 +38,15 @@ int main()
 	head = NULL; // set to NULL for now i.e points nowhere now
 	
 	printf("How many numbers?\n");
-	int n, x;
+	int n, x, d = 1;
 
 	scanf("%d", &n);
 	for (int i = 0; i < n; i++)
 	{
-		printf("Enter the number \n");
+		printf("Enter number (%d): \n", i == 0? d : ++d);
 		scanf("%d", &x);
 		Insert(&head, x);
 		Print(head);
 	}
-	
+	Print(head);
 }
