@@ -4,7 +4,6 @@
  *  Created on: Sep 9, 2020
  *      Author: ADESANYA TOBA
  */
-/*
 #include <stdio.h>
 
 //Pointer to pointer
@@ -28,7 +27,7 @@ int main()
 	printf("Final value held in address pointed to %d\n", **q);
 	printf("\n");
 
-	printf("%d\n", &q);
+	printf("Address of pointer q itself: %d\n", &q);
 	printf("Address held by r, which is the address of q: %d\n", r);
 	printf("Address stored in the address held by q: %d\n", *r);
 	printf("Address stored in that address: %d\n", **r);
@@ -41,4 +40,4 @@ int main()
 	**q = *p + 2;
 	printf("x = %d\n", x);
 
-}*/
+}
